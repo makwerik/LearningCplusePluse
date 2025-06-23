@@ -1,5 +1,5 @@
 #include <iostream>
-#include "first.h"
+#include "First/first.h"
 #include <locale>
 
 
@@ -12,6 +12,6 @@ int main() {
 		/* Словарь без сортировки по ключам
 			setPeopleUnorderMap();
 		*/
-
+	setPeopleUnorderMap();
 	return 0;
 }
