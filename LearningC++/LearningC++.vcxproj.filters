@@ -21,12 +21,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="first.cpp">
+    <ClCompile Include="First\first.cpp">
       <Filter>Исходные файлы\First</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="first.h">
+    <ClInclude Include="First\first.h">
       <Filter>Исходные файлы\First</Filter>
     </ClInclude>
   </ItemGroup>
