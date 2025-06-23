@@ -16,6 +16,9 @@
     <Filter Include="Исходные файлы\First">
       <UniqueIdentifier>{0ee2165f-090d-498b-9259-0648007eb3b3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Twoo">
+      <UniqueIdentifier>{710adfed-277b-4b79-b0ee-d86eccece57f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,10 +27,16 @@
     <ClCompile Include="First\first.cpp">
       <Filter>Исходные файлы\First</Filter>
     </ClCompile>
+    <ClCompile Include="Twoo\twoo.cpp">
+      <Filter>Исходные файлы\Twoo</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="First\first.h">
       <Filter>Исходные файлы\First</Filter>
+    </ClInclude>
+    <ClInclude Include="Twoo\twoo.h">
+      <Filter>Исходные файлы\Twoo</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
