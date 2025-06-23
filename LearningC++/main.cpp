@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include "First/first.h"
 #include <locale>
 
@@ -6,10 +6,10 @@
 int main() {
 	setlocale(LC_ALL, "");
 	// First:/
-		/* Словарь с пользователями и сортировкой по ключам
+	/* РЎР»РѕРІР°СЂСЊ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРјРё Рё СЃРѕСЂС‚РёСЂРѕРІРєРѕР№ РїРѕ РєР»СЋС‡Р°Рј
 			setPeople();
 		*/
-		/* Словарь без сортировки по ключам
+		/* РЎР»РѕРІР°СЂСЊ Р±РµР· СЃРѕСЂС‚РёСЂРѕРІРєРё РїРѕ РєР»СЋС‡Р°Рј
 			setPeopleUnorderMap();
 		*/
 	setPeopleUnorderMap();
