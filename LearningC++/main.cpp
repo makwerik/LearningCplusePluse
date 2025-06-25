@@ -3,6 +3,7 @@
 #include <locale>
 #include "Twoo/twoo.h"
 #include <string>
+#include "Three/three.h"
 
 int main() {
 	setlocale(LC_ALL, "");
@@ -26,6 +27,12 @@ int main() {
 			const int size = 5;
 			unorderedSetExample(size);
 	*/
+
+	/* Three:
+		Сложные коллекции, к примеру словарь со списком любмых блюд пользователей
+		setDishes();
+	/*/
+
 
 
 	return 0;
