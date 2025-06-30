@@ -4,6 +4,7 @@
 #include "Twoo/twoo.h"
 #include <string>
 #include "Three/three.h"
+#include "Four/four.h"
 
 int main() {
 	setlocale(LC_ALL, "");
@@ -32,6 +33,13 @@ int main() {
 		Сложные коллекции, к примеру словарь со списком любмых блюд пользователей
 		setDishes();
 	/*/
+
+	/* Four:
+		Стек и очередь
+		setStack();
+		setQueue();
+	*/
+
 
 
 

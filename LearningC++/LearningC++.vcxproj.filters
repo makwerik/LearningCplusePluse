@@ -22,6 +22,9 @@
     <Filter Include="Исходные файлы\Three">
       <UniqueIdentifier>{0d618158-7368-4c35-bc2a-98fd8b41cc1c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Four">
+      <UniqueIdentifier>{337a1c14-3d81-49bc-b0f7-04b091ee7e3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -36,6 +39,9 @@
     <ClCompile Include="Three\three.cpp">
       <Filter>Исходные файлы\Three</Filter>
     </ClCompile>
+    <ClCompile Include="Four\four.cpp">
+      <Filter>Исходные файлы\Four</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="First\first.h">
@@ -46,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="Three\three.h">
       <Filter>Исходные файлы\Three</Filter>
+    </ClInclude>
+    <ClInclude Include="Four\four.h">
+      <Filter>Исходные файлы\Four</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
