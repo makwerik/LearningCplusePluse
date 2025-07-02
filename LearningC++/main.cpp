@@ -5,6 +5,7 @@
 #include <string>
 #include "Three/three.h"
 #include "Four/four.h"
+#include "Five/five.h"
 
 int main() {
 	setlocale(LC_ALL, "");
@@ -39,6 +40,13 @@ int main() {
 		setStack();
 		setQueue();
 	*/
+
+	/*
+		Five:
+		Очередь с приоритетом
+	*/
+
+	setPriorityTask();
 
 
 

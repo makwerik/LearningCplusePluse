@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="First\first.cpp" />
+    <ClCompile Include="Five\five.cpp" />
     <ClCompile Include="Four\four.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Three\three.cpp" />
@@ -131,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="First\first.h" />
+    <ClInclude Include="Five\five.h" />
     <ClInclude Include="Four\four.h" />
     <ClInclude Include="Three\three.h" />
     <ClInclude Include="Twoo\twoo.h" />
