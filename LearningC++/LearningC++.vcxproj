@@ -127,6 +127,7 @@
     <ClCompile Include="Five\five.cpp" />
     <ClCompile Include="Four\four.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Six\six.cpp" />
     <ClCompile Include="Three\three.cpp" />
     <ClCompile Include="Twoo\twoo.cpp" />
   </ItemGroup>
@@ -134,6 +135,7 @@
     <ClInclude Include="First\first.h" />
     <ClInclude Include="Five\five.h" />
     <ClInclude Include="Four\four.h" />
+    <ClInclude Include="Six\six.h" />
     <ClInclude Include="Three\three.h" />
     <ClInclude Include="Twoo\twoo.h" />
   </ItemGroup>

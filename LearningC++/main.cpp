@@ -6,6 +6,7 @@
 #include "Three/three.h"
 #include "Four/four.h"
 #include "Five/five.h"
+#include "Six/six.h"
 
 int main() {
 	setlocale(LC_ALL, "");
@@ -44,9 +45,16 @@ int main() {
 	/*
 		Five:
 		Очередь с приоритетом
+		setPriorityTask();
 	*/
 
-	setPriorityTask();
+	/*
+		Динамический вектор
+		students();
+
+	*/
+
+	
 
 
 
