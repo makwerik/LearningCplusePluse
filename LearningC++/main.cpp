@@ -7,6 +7,7 @@
 #include "Four/four.h"
 #include "Five/five.h"
 #include "Six/six.h"
+#include "Seven/seven.h"
 
 int main() {
 	setlocale(LC_ALL, "");
@@ -49,9 +50,15 @@ int main() {
 	*/
 
 	/*
+		Six:
 		Динамический вектор
 		students();
 
+	*/
+
+	/*
+		Seven: algorithm, numeric
+		sortedNums();
 	*/
 
 	
