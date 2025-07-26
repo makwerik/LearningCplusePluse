@@ -1,4 +1,4 @@
-#include "seven.h"
+ï»¿#include "seven.h"
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -10,37 +10,37 @@ void sortedNums() {
 	std::vector<int> numbers;
 	int count;
 
-	std::cout << "Ââåäèòå êîë-âî ÷èñåë: ";
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ĞºĞ¾Ğ»-Ğ²Ğ¾ Ñ‡Ğ¸ÑĞµĞ»: ";
 	std::cin >> count;
 
 	int num = 0;
 	for (int i = 0; i < count; i++) {
-		std::cout << "Ââåäèòå ÷èñëî " << i + 1 << ": ";
+		std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ " << i + 1 << ": ";
 		std::cin >> num;
 
 		numbers.push_back(num);
 	}
 
-	std::cout << "\nÒåêóùèé âåêòîğ: " << std::endl;
+	std::cout << "\nĞ¢ĞµĞºÑƒÑ‰Ğ¸Ğ¹ Ğ²ĞµĞºÑ‚Ğ¾Ñ€: " << std::endl;
 	for (const auto& n : numbers) {
 		std::cout << n << " ";
 	}
 
 	std::sort(numbers.begin(), numbers.end());
-	std::cout << "\nÎòñîğòèğîâàííûé âåêòîğ: " << std::endl;
+	std::cout << "\nĞÑ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ½Ñ‹Ğ¹ Ğ²ĞµĞºÑ‚Ğ¾Ñ€: " << std::endl;
 	for (const auto& n : numbers) {
 		std::cout << n << " ";
 	}
 
 	int sum = std::accumulate(numbers.begin(), numbers.end(), 0);
 
-	std::cout << "\nÑóììà ÷èñåë â âåêòîğå: " << sum << std::endl
+	std::cout << "\nĞ¡ÑƒĞ¼Ğ¼Ğ° Ñ‡Ğ¸ÑĞµĞ» Ğ² Ğ²ĞµĞºÑ‚Ğ¾Ñ€Ğµ: " << sum << std::endl;
 
 	if (std::find(numbers.begin(), numbers.end(), 10) != numbers.end()) {
-		std::cout << "\n×èñëî 10 íàéäåíî â âåêòîğå" << std::endl;
+		std::cout << "\nĞ§Ğ¸ÑĞ»Ğ¾ 10 Ğ½Ğ°Ğ¹Ğ´ĞµĞ½Ğ¾ Ğ² Ğ²ĞµĞºÑ‚Ğ¾Ñ€Ğµ" << std::endl;
 	}
 	else {
-		std::cout << "\n×èñëî 10 íå íàéäåíî â âåêòîğå" << std::endl;
+		std::cout << "\nĞ§Ğ¸ÑĞ»Ğ¾ 10 Ğ½Ğµ Ğ½Ğ°Ğ¹Ğ´ĞµĞ½Ğ¾ Ğ² Ğ²ĞµĞºÑ‚Ğ¾Ñ€Ğµ" << std::endl;
 	}
 	
 }
