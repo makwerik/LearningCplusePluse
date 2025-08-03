@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Eight\eight.cpp" />
     <ClCompile Include="First\first.cpp" />
     <ClCompile Include="Five\five.cpp" />
     <ClCompile Include="Four\four.cpp" />
@@ -133,6 +134,7 @@
     <ClCompile Include="Twoo\twoo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Eight\eight.h" />
     <ClInclude Include="First\first.h" />
     <ClInclude Include="Five\five.h" />
     <ClInclude Include="Four\four.h" />

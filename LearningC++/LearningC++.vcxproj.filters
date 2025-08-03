@@ -42,6 +42,18 @@
     <ClCompile Include="Four\four.cpp">
       <Filter>Исходные файлы\Four</Filter>
     </ClCompile>
+    <ClCompile Include="Five\five.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Seven\seven.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Six\six.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Eight\eight.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="First\first.h">
@@ -55,6 +67,18 @@
     </ClInclude>
     <ClInclude Include="Four\four.h">
       <Filter>Исходные файлы\Four</Filter>
+    </ClInclude>
+    <ClInclude Include="Five\five.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Seven\seven.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Six\six.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Eight\eight.h">
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

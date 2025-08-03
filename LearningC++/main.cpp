@@ -8,6 +8,7 @@
 #include "Five/five.h"
 #include "Six/six.h"
 #include "Seven/seven.h"
+#include "Eight/eight.h"
 
 int main() {
 	setlocale(LC_ALL, "");
@@ -61,6 +62,15 @@ int main() {
 		sortedNums();
 	*/
 
+	/*
+	Eight:
+		Вектор пар, где первый элемент - название продукта, второй - цена
+		appendProducts();
+		getProducts();
+		productsAvg();
+	*/
+
+	appendProducts();
 	
 
 
